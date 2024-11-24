@@ -14,6 +14,6 @@ class Dog(Animal):
     def sleep(self):
         return f"The {self.breed} is sleeping."
 
-    def fur(self):
+    def fur_type(self):
         return f"The {self.breed} has {self.fur} fur!"
 
